@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    position: absolute;
+    width: 100%;
+}
+.fejresz{
+    background-color: #FFE4C4;
+    border: solid 2px lightgray;
+}
+.fejresz .mennyiseg{
+    width: 15%;
+}
+.fejresz td{
+    padding-left: 10px;
+}
+.fejresz .md{
+    text-align: center;
+}
+sup{
+    font-size: 10px;
+}
+tbody td{
+    height: 30px;
+    padding-left: 5px;
+    border-bottom: solid 2px lightgray;
+}
+.tbody,tr:hover{
+    background-color: lightblue;
+}
